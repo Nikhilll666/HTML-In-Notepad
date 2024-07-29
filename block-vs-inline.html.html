@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width= device-width, initial-scale = 1.0">
+<title>Title</title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	html,body{
+		width:100%;
+		height:100%;
+	}
+	#main{
+		position: relative;
+		width:100%;
+		height:100%;
+		color: white;
+	}
+
+	.box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#box1{
+		width:25%;
+		height:35%;
+		background-color: pink;
+		
+	}
+	#box2{
+		position: absolute;
+		width:30%;
+		height:25%;
+		right: 0;
+		top: 0;
+		background-color: blue;
+	}
+	#box3{
+		position: absolute;
+		width:20%;
+		height:40%;
+		background-color: red;
+		right: 0;
+		bottom: 0;
+		border-radius: 50%;
+	}
+	#box4{
+		position: absolute;
+		width:30%;
+		height:40%;
+		left: 0;
+		bottom: 0;
+		background-color: green;
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	}
+</style>
+</head>
+
+<body>
+	<div id = "main">
+		<div id = "box1" class = "box">Square</div>
+		<div id = "box2" class = "box">Ractangle</div>
+		<div id = "box3" class = "box">Circle</div>
+		<div id = "box4" class = "box">Triangle</div>
+	</div>
+</body>
+</html>
+
+
+

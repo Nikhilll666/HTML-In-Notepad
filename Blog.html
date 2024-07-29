@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewpoint" content = "width = device-width, initial-scale = 1.0">
+<title> Simple Blog </title>
+
+<style>
+	a{
+		display:block;
+	}
+</style>
+</head>
+
+<body>
+	<header>
+		<h1> My Blog </h1>
+		<nav>
+			<a href = "#" >Home </a>
+			<a href = "#" >Blog Posts </a>
+			<a href = "#" >About </a>
+		</nav>
+		<section id = "home">
+			<h2>Welcome to My Blogs</h2>
+			<p> 
+			In today’s digital landscape, creating a successful web presence involves more than just eye-catching design. To truly engage users and ensure your website meets their needs, three critical aspects must be addressed: responsiveness, modern development frameworks, and accessibility.
+			</p>
+		</section>
+		<section id = "posts">
+			<h2> Blog Posts </h2>
+			<article>
+				<h3> The Importance of Accessibility in Web Design </h3>
+				<p> Introduction :Web accessibility ensures that websites are usable by people of all abilities and disabilities. It is 				crucial for inclusivity and legal compliance.
+				Design and development practices that make websites usable for people with disabilities.
+				Laws like the Americans with Disabilities Act (ADA) in the US and the Web Content Accessibility Guidelines (WCAG).
+				</p><br>
+				<footer>
+					Author :William Shakespeare<br>
+					Date :01/01/05
+				</footer>
+
+				<h3>Building Responsive Websites: Tips and Tricks</h3>
+				<p> Introduction :Responsive web design ensures that a website looks good and functions well on all devices, from desktop 				computers to mobile phones. This approach adapts the layout based on screen size and resolution. Understanding the Basics of 				Responsive Design
+				Fluid Grid Layouts:
+				Use relative units like percentages instead of fixed units like pixels.
+				Example: width: 50% instead of width: 500px.
+				Flexible Images:
+				Ensure images scale appropriately using CSS properties.
+				Example: img { max-width: 100%; height: auto; }.
+				Media Queries:
+				Apply different styles based on device characteristics.
+				</p><br>
+				<footer>
+					Author :Jane Austen<br>
+					Date :08/06/4901/01/05
+				</footer>
+
+
+				<h3> Exploring the MERN Stack: MongoDB, Express, React, Node.js </h3>
+				<p> Introduction :The MERN stack is a popular full-stack development framework that includes MongoDB, Express, React, and 				Node.js. It provides a robust framework for building scalable and maintainable web applications.Overview:
+				NoSQL database that uses a document-oriented data model.
+				Stores data in flexible, JSON-like documents.
+				Key Features:
+				Schema-less collections.
+				Indexing for fast searches.
+				High availability with replica sets.
+				Basic Operations:
+				Insert a document: db.collection.insertOne({name: 'John', age: 30}).
+				Query documents: db.collection.find({age: {$gt: 20}}).
+				2. Express
+				Overview:
+				Minimalist web application framework for Node.js.
+				Facilitates the development of APIs and web applications.
+				Key Features:
+				Middleware support for handling requests.
+				Route management for defining application endpoints.
+				</p><br>
+				<footer>
+					Author :George Orwell<br>
+					Date :28/01/13
+				</footer>
+			</article>
+			
+			<sectoin id = "about">
+			<h2> About Me </h2>
+			<p> My name is Nikhil, and I am a student specializing in software web development. I am passionate about creating dynamic and user-			friendly web applications, and I am continuously learning and honing my skills in this exciting field. My interests lie in front-end 			and back-end development, and I enjoy working with the latest technologies to build innovative solutions. In my spare time, I love 			exploring new programming languages and frameworks, as well as contributing to open-source projects. I am committed to becoming a 			proficient web developer and making a positive impact in the tech community. To truly engage users and ensure your website meets 			their needs, three critical aspects must be addressed: responsiveness, modern development frameworks, and accessibility. </p>
+			</section>
+			
+			<form action ="#" method = "post" >
+				<label for = "name" > Name :- </label>
+				<input type = "text" name = "name" id = "name" placeholder = "Enter your name..."><br><br>
+				<label for = "email" > Email :-</label>
+				<input type = "email" name = "email" id = "email" placeholder = "Enter your email..."><br><br>
+				<textarea name = "message" rows = "10" cols = "30">
+				Enter your text here...
+				</textarea><br><br>
+				<button type = "summit">Summit</button>
+			</form>
+	</header>
+	
+
+</body>
+</html>
